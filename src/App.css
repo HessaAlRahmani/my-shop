@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.List {
+  margin: 25px 40px;
+}
+
+.listContainer{
+  display: flex;
+  justify-content: center
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

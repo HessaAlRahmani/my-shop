@@ -3,10 +3,10 @@ import products from "./products.js";
 //maybe?
 function Products(props) {
   return (
-    <div>
-      <img src={props.img} alt="a book cover"></img>
-      <h2>{props.name}</h2>
-      <h6>{props.price}</h6>
+    <div className="List">
+      <img src={props.img} alt="a book cover" width="200" height="250"></img>
+      <h5>{props.name}</h5>
+      <h5>{props.price} KD</h5>
     </div>
   );
 }
@@ -24,7 +24,7 @@ function App() {
         width="100%"
         height="650"
       ></img>
-      {productList}
+      <div className="listContainer">{productList}</div>
     </div>
   );
 }
